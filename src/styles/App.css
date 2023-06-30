@@ -1,0 +1,48 @@
+html, body {
+    height: 100%;
+    background-color: var(--bg-color);
+    color:white;
+    overflow-x: hidden;
+}
+
+:root {
+    --bg-color:  #161819;
+    --bg-secundary: #2C2F32;
+    --bg-terciary: #1F2123;
+    --bg-img: #393A3E;
+    --main-height: 89.76vh;
+}
+#root{
+    height: 100%;
+}
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins";
+    box-sizing: border-box;
+}
+
+
+
+.asd {
+    font-weight: 500;
+    font-size: 18px;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 400;
+    line-height-step: 5px;
+    padding-right: 50px;
+    overflow:hidden ;
+    height: 20px;
+    width: 305px;
+    height: 236px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    transition: all ease-in-out 0.2s;
+}
+
+.Pic {
+    position: relative;
+}
